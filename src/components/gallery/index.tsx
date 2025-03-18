@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 interface GalleryImage {
   id: string;
   category: string;
-  treatment: string;
+  treatment: string; 
   beforeImage: string;
   afterImage: string;
 }
