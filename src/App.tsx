@@ -2,7 +2,7 @@ import { Suspense, lazy } from "react";
 import { useRoutes, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import routes from "tempo-routes";
-
+ 
 // Lazy load pages for better performance
 const ServicesPage = lazy(() => import("./components/services"));
 const AboutPage = lazy(() => import("./components/about"));
