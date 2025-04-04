@@ -7,7 +7,7 @@ interface BookingCTAProps {
   buttonText?: string;
   backgroundImage?: string;
   onBookingClick?: () => void;
-}
+} 
 
 const BookingCTA = ({
   title = "Book Your Consultation Today",
